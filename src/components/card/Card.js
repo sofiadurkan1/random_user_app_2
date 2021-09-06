@@ -15,17 +15,54 @@ import Woman from '../svg/Woman';
 
 const Card = () => {
     return (
-        <div>
+        <div className="container">
         <Cw/>
-        <Design />
-        <GrowingUpMan/>
-        <GrowingUpWoman/>
-        <Mail/>
+        <div className="card">
+            <div className="user-image">
+                <img src="" alt="" />
+            </div>
+            <div className="user-name">
+                <p>My is</p>
+
+            </div>
+
+            <div className="svg">
         <Man/>
-        <Map/>
-        <Padlock/>
-        <Phone/>
         <Woman/>
+        <Mail/>
+        <GrowingUpWoman/>
+        <GrowingUpMan/>
+        <Map/>
+        <Phone/>
+        <Padlock/>
+
+
+
+            </div>
+            <div className="buttons">
+                <button>NEW USER</button>
+                <button>ADD USER</button>
+
+            </div>
+            <div className="user-info">
+                <table>
+                <thead>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                </table>
+
+            </div>
+
+        </div>
+
+
+        <Design />
+
              
         </div>
     )
