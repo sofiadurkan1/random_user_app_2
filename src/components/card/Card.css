@@ -42,7 +42,7 @@
     justify-content: space-around;
   }
 
-.button{
+button{
     height: 35px;
     width: 130px;
     background-color: purple;
