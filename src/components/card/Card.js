@@ -17,12 +17,16 @@ const Card = () => {
     return (
         <div className="container">
         <Cw/>
-        <div className="card">
+        <div className="card"> </div>
             <div className="user-image">
                 <img src="" alt="" />
-            </div>
+                </div>
+           
             <div className="user-name">
                 <p>My is</p>
+                <p>
+                <span></span>
+                </p>
 
             </div>
 
@@ -58,7 +62,7 @@ const Card = () => {
 
             </div>
 
-        </div>
+        
 
 
         <Design />

@@ -1,0 +1,66 @@
+.container{
+
+ width: 800px;
+  margin:auto;
+  margin-top: 50px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 20px gray;
+
+
+}
+.card{
+    width: 100%;
+    height: 120px;
+    background-color: rgba(95, 80, 80,0.1);
+    border-bottom: 0.5px solid gray;
+
+}
+.user-image{
+  position: absolute;
+  margin:auto;
+  margin-left: -70px;
+  border-radius: 100%;
+  margin-top: -100px;
+  border: 5px solid white;
+  box-shadow: 5px 5px 20px gray;
+
+
+}
+
+.svg{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin:auto;
+  margin-top: 40px;
+}
+
+.buttons {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+.button{
+    height: 35px;
+    width: 130px;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+
+}
+
+button:hover{
+    height: 35px;
+    width: 130px;
+    background-color: white;
+    color: purple;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
